@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sortifile"
+version = "1.1.0"
+description = "CLI tool for automatically sorting files into subfolders. Customisable with own rules with function to restore the old structure"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "alphascg" }]
+
+dependencies = []
+
+[project.scripts]
+sortifile = "sortifile.main:main"
