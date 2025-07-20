@@ -1,3 +1,6 @@
 __pycache__/
 undo_logs/
 *.pyc
+dist/
+build/
+*.egg-info/
