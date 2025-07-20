@@ -2,9 +2,9 @@ import argparse
 import os
 import sys
 
-from config_loader import load_rules
-from sorter import sort_directory
-from undo import undo_last_run
+from sortifile.config_loader import load_rules
+from sortifile.sorter import sort_directory
+from sortifile.undo import undo_last_run
 
 
 def parse_args():
