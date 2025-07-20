@@ -39,5 +39,5 @@ def undo_last_run():
         except Exception as e:
             print(f"Could not delete folder: {folder} - {e}")
 
-    # Lösche Undo-Log
+    # Delete Undo-Log
     os.remove(UNDO_LOG_PATH)
