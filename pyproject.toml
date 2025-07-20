@@ -23,3 +23,6 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 include = ["sortifile", "sortifile.rules"]
+
+[tool.setuptools.package-data]
+"sortifile.rules" = ["default_rules.json"]
